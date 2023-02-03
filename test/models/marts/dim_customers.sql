@@ -47,7 +47,7 @@ joined as (
         end as customer_type
 
     from customers
-    join order_summary using (customer_id)
+    join order_summary using (customer)
 
 )
 
